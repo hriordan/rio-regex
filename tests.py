@@ -23,5 +23,11 @@ class TestRegex(unittest.TestCase):
         self.assertTrue(self.re.match("?aab", "ab"))
 
 
+# todo: test state machine funcs
+
+class TestStateMachine(unittest.TestCase):
+    pass
+
+
 if __name__ == '__main__':
     unittest.main()
