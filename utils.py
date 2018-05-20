@@ -1,4 +1,9 @@
-from rioregex import STATE_MATCH
+
+# simple enum(s) for special state(s)
+STATE_MATCH = 1
+
+METACHARS = set(['.', '?',
+                '*', '+'])
 
 
 def clearAndReplaceList(old, new):

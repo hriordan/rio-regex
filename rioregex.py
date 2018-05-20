@@ -1,11 +1,4 @@
-from utils import clearAndReplaceList
-
-
-# simple enum(s) for special state(s)
-STATE_MATCH = 1
-
-METACHARS = set(['.', '?',
-                '*', '+'])
+from utils import clearAndReplaceList, STATE_MATCH, METACHARS
 
 
 class RegexEngine:
